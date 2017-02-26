@@ -57,7 +57,7 @@ A recommended way to control a dynamic
 system is through the use of a suitable model of the system.
 
 <h4>Mechanical Elements</h4>
-<h5>Mass(inertia)</h5>
+<h5>Mass(inertia) Element</h5>
 The constitutive equation (Newton’s second law) is<br>
 m*dv/dt= f<br>
 
@@ -65,6 +65,11 @@ A finite force cannot cause an infinite acceleration in an inertia element. A fi
 instantaneous change (step) in velocity will need an infinite force. Hence, v is a
 natural output (or state) variable and f is a natural input variable for an inertia
 element
+
+<h5>Spring (Stiffness) Element</h5>
+The constitutive equation (Hooke’s law) is
+df/dt= k*v
+
 
 <center>
 
