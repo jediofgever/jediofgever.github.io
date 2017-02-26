@@ -74,6 +74,19 @@ because the force of a spring at any general time t may be completely determined
 with the knowledge of the initial force and the applied velocity, and also because
 the energy of a spring element can be represented in terms of f alone.
 
+<h4>Core Properties of State-Space Rep.</h4>
+<h5>Property1</h5>
+The state vector x(t0) at time t0 and the input (forcing excitation) u[t0 , t1 ] over the time
+interval [t0 , t1], will uniquely determine the state vector x(t1) any future time t1 . In other
+words, a transformation g can be defined such that;
+x(t1) = g(t0 , t1 , x(t0), u[t0 , t1])
+<h5>Property2</h5>
+The state x(t1) and the input u(t1) at any time t1 will uniquely determine the system output
+or response vector y(t1) at that time. This can be expressed as <br>
+y(t1) = h(t1 , x(t1), u(t1))<br>
+
+This says that the system response (output) at time t1 depends on <strong> the time, the input,
+and the state vector</strong>.
 <center>
 
     <p> 
