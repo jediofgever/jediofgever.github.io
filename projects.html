@@ -6,7 +6,12 @@ With the two frontal webcams, robot is able to detect grass area, and unmowed gr
 algorithm. The upper camera detects area with the grass and obstacles that are needed to be avoid. <br><br>
 With GPS the robot avoids replication of same positions. Thus the operation of mowing grass, is done with optimal efficiency. <br><br>
 Computer vision algorithms are developed in Python and OpenCV and Embedded to Raspberry Pi.  Since the computation power of Raspberry Pi
-is relatively limited the algorithms were not performed optimally.
+is relatively limited the algorithms were not performed optimally. <br><br>
+At bottom left picture, the computer vision algorithm has deteceted intersted area , also the obstactle front of robot. The red line is 
+meant to be optimal steering angle for the navigation. At bottom right picture GPS data is processed to an image, processed areas 
+are circled in red line this indicated that the robot shall not pass through this area. This is done by comparing the most recent 
+data from GPS with the scanned area.
+
 <br><br><br><br><br><br><br><br>
  <img src="https://github.com/jediofgever/jediofgever.github.io/blob/master/detectgrass.png?raw=true" alt="W3Schools.com" style="width:683px;height:384px;" align="left">
  <img src="https://github.com/jediofgever/jediofgever.github.io/blob/master/GpsScaning.jpg?raw=true" alt="W3Schools.com" style="width:455px;height:302px;" align="right">
