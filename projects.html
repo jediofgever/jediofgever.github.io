@@ -25,10 +25,12 @@
 <h3 align="center" > Deep Neural Network For Vehicle Detection </h3>
         <img src="https://github.com/jediofgever/jediofgever.github.io/blob/master/vehicle.png?raw=true" alt="W3Schools.com" style="width:640px;height:480px;" align="left">
 
- This implementation is a part of my Master Degree thesis. Tensorflow was used to train the DNN. GoogleNet's Inception architecture
-was used. GoogleNet's Inception architecture and much of the architecture software is under <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md"> Tensorflow Object Detection API</a> Training data was borrowed from <a href="http://ai.stanford.edu/~jkrause/cars/car_dataset.html">Stanford AI.</a>
-    The labels were avaliable as MATLAB
-workspace struct. The labels, first obtained as excel format and then converted xml type. 
+ This implementation is a part of my Master Degree thesis. Tensorflow was used to train the Deep Neural Network(DNN). GoogleNet's Inception Convulutional Neural Network architecture
+was used. GoogleNet's Inception architecture and more of the architecture software is under <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md"> Tensorflow Object Detection API</a> Training data was borrowed from <a href="http://ai.stanford.edu/~jkrause/cars/car_dataset.html">Stanford AI.</a>
+    In total There are 16k car images. 8k for training and the other 8k for testing of DNN.
+    The labels for cars inthese images were avaliable as MATLAB
+workspace struct. The labels, first obtained as excel data table which includes pixel locations of bounding boxes around cars. Eventually this excel data table was converted xml type. Each image has an xml file with the same name. Each xml file includes specifications of that image
+    such as; bound box locations, path to the image, size of the image etc.
     Python code for this convertation can be found <a href="https://github.com/jediofgever/jediofgever.github.io/blob/master/excel2xml.py"> here</a>. Training was done without
     GPU. The picture at left, is a sample image where DNN has detected the car even the picture is blurry. 
     
