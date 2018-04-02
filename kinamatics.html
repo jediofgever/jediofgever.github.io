@@ -1,0 +1,96 @@
+<title>Fetullah Atas</title>
+<br><br><br><br><br><br>
+<left>
+    <h4> 
+    <font color="#000033" size="5" face="Arial, Helvetica, sans-serif"> 
+
+            <a href="index.html">Main Page</a>
+     
+          | 
+      
+          | <a href="education.html">Education</a>
+        
+          |<a href="projects.html">Projects</a>
+  
+
+    </font>
+
+    <br>
+
+</h4>
+<br><br><br>
+<h4>Homogenous Transformation</h4>
+with homogenous transformation, position vectors and rotation vectors are well combined in a in a compact notation<br>
+any vector expressed relative to moving frame can be expressed relative to fixed frame<br>
+
+<h4>Forward Kinematics</h4>
+The forward kinematics problem for a serial-chain manipulator is to find the position and orientation of the<br>
+end-effector relative to the base given the positions of all of the joints and the values of all of the geometric<br>
+link parameters.
+
+<h4>Inverse Kinematics</h4>
+The inverse kinematics problem for a serial-chain manipulator is to find the values of the joint positions given <br>
+the position and orientation of the end-effector relative to the base and the values of all of the geometric link <br>
+parameters. Once again, this is a simplified statement applying only to serial chains.
+
+<h4>What is A dynamic system ?</h4>
+A dynamic system is one whose response variables are functions of time, with non-negligible “rates” of changes. Also, its present
+output depends not only on the present input, but also on some historical information
+(e.g., previous input or output)
+
+<h4>An analytical model ?</h4>
+An analytical model (or mathematical model) comprises equations (e.g., differential equa-
+tions) or an equivalent set of information, which represents the system to some degree of
+accuracy.
+
+<h4>How to represent mechatronic model ?</h4>
+
+we represent the system with a model, such as a state space model, a linear graph, a bond graph, a transfer function model or a frequency-domain
+model.
+
+<h4>Mechatronic Models ?</h4>
+In general, models may be grouped into the following categories:<br>
+<br>
+1.Physical models (prototypes)<br>
+2.Analytical models<br>
+3.Computer (numerical) models<br>
+4.Experimental models (using input/output experimental data).
+
+<h4> Controlling a system</h4>
+A recommended way to control a dynamic
+system is through the use of a suitable model of the system.
+
+<h4>Mechanical Elements</h4>
+<h5>Mass(inertia) Element</h5>
+The constitutive equation (Newton’s second law) is<br>
+m*dv/dt= f<br>
+
+A finite force cannot cause an infinite acceleration in an inertia element. A finite
+instantaneous change (step) in velocity will need an infinite force. Hence, v is a
+natural output (or state) variable and f is a natural input variable for an inertia
+element
+
+<h5>Spring (Stiffness) Element</h5>
+The constitutive equation (Hooke’s law) is
+df/dt= k*v
+Force can represent the state of a stiffness (spring) element. This is justified
+because the force of a spring at any general time t may be completely determined
+with the knowledge of the initial force and the applied velocity, and also because
+the energy of a spring element can be represented in terms of f alone.
+
+<h4>Core Properties of State-Space Rep.</h4>
+<h5>Property1</h5>
+The state vector x(t0) at time t0 and the input (forcing excitation) u[t0 , t1 ] over the time
+interval [t0 , t1], will uniquely determine the state vector x(t1) any future time t1 . In other
+words, a transformation g can be defined such that;
+x(t1) = g(t0 , t1 , x(t0), u[t0 , t1])
+<h5>Property2</h5>
+The state x(t1) and the input u(t1) at any time t1 will uniquely determine the system output
+or response vector y(t1) at that time. This can be expressed as <br>
+y(t1) = h(t1 , x(t1), u(t1))<br>
+
+This says that the system response (output) at time t1 depends on <strong> the time, the input,
+and the state vector</strong>.
+
+<h4>Referencees</h4>
+[1]  Second Edition of the Springer Handbook of Robotics by Siciliano and Khatib
