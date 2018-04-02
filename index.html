@@ -1,79 +1,930 @@
-<title>Fetullah Atas</title>
-<br><br><br><br><br><br>
-<left>
-    <h4> 
-    <font color="#000033" size="5" face="Arial, Helvetica, sans-serif"> 
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fetullah Atas - Personal Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Fetullah Atas - Personal Page" />
+    <meta name="keywords" content="Fetullah Atas, robotics, computer vision, machine learning, SLAM" />
+    <meta name="author" content="lmtheme" />
 
-            <a href="index.html">Main Page</a>
-     
-          | 
-      
-          |<a href="education.html">Education</a>
-        
-          |<a href="projects.html">Projects</a>
-          |<a href="papers.html">Papers</a>
-          |<a href="personal.html">Personal</a>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-  
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
-    </font>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
 
-    <br>
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-</h4>
- You are welcome on my website. I am Fetullah, <br>
-   a master degree student @
-<a href="http://www-en.ntut.edu.tw/bin/home.php">Taipei Tech</a>. <br> Here, in my website you can see some of my projects,<br>
-some information about areas of interest.<br><br>
- My research motivation is on Dynamic and Control of <br>
-    Autonmous  Vehicles, Mechatronic systems, Computer Vision    
-</left>
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="my-photo">
+          <img src="images/my_photo.jpeg" alt="image">
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Pep Lluís Negre</h1>
+          <p class="site-description">Robotics. Computer vision.</p>
+        </div>
+
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Home</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+            </li>
+            <!-- /About Me Subpage link -->
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">About me</a>
+            </li>
+            <!-- /About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+
+          <!-- Social buttons -->
+          <ul class="social-links">
+            <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+            <li><a class="tip social-button" href="https://github.com/jediofgever" title="Github"><i class="fa fa-github"></i></a></li>
+            <li><a class="tip social-button" href="https://www.linkedin.com/in/fetatas/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a></li>
+            <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+            <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+          </ul>
+          <!-- /Social buttons -->
+        </div>
+        <!-- Navigation & Social buttons -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Fetullah Atas</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg.jpg);" data-id="home">
+              <div class="home-page-block-bg">
+                <div class="mask"></div>
+              </div>
+              <div class="home-page-block">
+                <div class="v-align">
+                  <h2>Fetullah Atas</h2>
+                  <div id="rotate" class="text-rotate">
+                    <div>
+                      <p class="home-page-description">Machine Learning </p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Robotics</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Computer vision</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Localization and mapping</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">SLAM </p>
+                    </div>
+                  </div>
+
+                  <div class="block end" style="text-align: center">
+                    <ul class="info-list">
+                      <!-- <li><span class="title">Age</span><span class="value">31</span></li>
+                      <li><span class="title">e-mail</span><span class="value"><img src="images/eailm_white.png" alt=""></span></li> -->
+                      <!-- <li><span class="title">Phone</span><span class="value">+34 971 172 813</span></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">About Me</h2>
+                <h5 class="section-description">I beleieve in hard work, Einstein would be a typical academician without his hard work.</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="general-info">
+                    <h3>I am MSc @ National Taipei University of Technology</h3>
+                    <p>Here, in my website you can see some of my projects,
+some information about areas of interest.
+
+My research motivation is Machine Learning, Sensor Fusion, 
+Autonmous Vehicles, Mechatronic systems, Computer Vision </p>
+                    <p>At work I am very organized and efficient. I like to plan, prioritize and execute tasks with decision. I hate wasting time. I need to have long-term goals to maintain a global vision of projects. But I divide the tasks into very simple parts to finally obtain a complex result.</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Favourite quotes</h3>
+                  </div>
+                  <div class="testimonials owl-carousel">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-item" style="width:100%">
+                      <!-- Testimonial Content -->
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"In theory, theory and practice are the same, in practice they are not (Yogi Berra)."</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial Content -->
+                      <!-- Testimonial Author -->
+                      <div class="testimonial-credits">
+                        <!-- Picture -->
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/eleanor.jpeg" alt="">
+                        </div>
+                        <!-- /Picture -->
+                        <!-- Testimonial author information -->
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Yogi Berrat</p>
+                        </div>
+                      </div>
+                      <!-- /Testimonial author information -->
+                    </div>
+                    <!-- End of Testimonial 1 -->
 
 
-<div style="position: absolute; top: 40px; width: 500px; right: 200px; height: 250px; background-color: white">
- <img src="https://github.com/jediofgever/jediofgever.github.io/blob/master/yhis.jpg?raw=true" alt="W3Schools.com" style="width:150px;height:267px;" align="center">
-   <br><br><h3>Fetullah Atas <br>  Mechatronics Engineer</h3>
-</div>
 
-<br><br>
-<h1>My Notes</h1>
-<a href="kinamatics.html">notes on kinematics</a> <br>
+              <!-- Services block -->
+              <div class="block-title">
+                <h3>Knowledge</h3>
+              </div>
 
-<center>
-      <font size="-3" face="Arial, Helvetica, sans-serif">
-          <strong>in theory, theory and practice are the same, in practice they are not (Yogi Berra) </strong>
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block">
+                    <div class="service-info">
+                      <i class="service-icon fa fa-video-camera"></i>
+                      <h4>Computer vision</h4>
+                      <p>Mono/stereo camera calibration. Image features detection and matching. Stereo triangulation. Color enhancement.</p>
+                    </div>
+                  </div>
+                </div>
 
-    </font>
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block">
+                    <div class="service-info">
+                      <i class="service-icon fa fa-map"></i>
+                      <h4>SLAM</h4>
+                      <p>SLAM algorithms for robot localization and 3D reconstruction. Loop closing detection, geometric validation and integration. Mono/stereo visual odometry.</p>
+                    </div>
+                  </div>
+                </div>
 
-    <p> 
-    <font color="#000033" size="3" face="Arial, Helvetica, sans-serif"> 
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block">
+                    <div class="service-info">
+                      <i class="service-icon fa fa-location-arrow"></i>
+                      <h4>Robot localization</h4>
+                      <p>Sensor fusion. Extended Kalman filters. Integration of accelerations, velocities and global positioning for a centimeter precise navigation.</p>
+                    </div>
+                  </div>
+                </div>
 
-            <a href="index.html">Main Page</a>
-          | <a href="projects.html">Projects</a> 
-          | <a href="education.html">Education</a> 
-          |<a href="papers.html">Papers</a>
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block">
+                    <div class="service-info">
+                      <i class="service-icon fa fa-microchip"></i>
+                      <h4>Sensor drivers</h4>
+                      <p>Sensors drivers for ROS. Serial, TCP/IP and USB communications.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services block -->
 
-    </font>
+              <!-- Clients block -->
+              <!-- <div class="block-title">
+                <h3>Clients</h3>
+              </div>
 
-    <br>
+              <div class="row">
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_1.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_2.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_3.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_4.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_5.png" alt="image"></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 subpage-block">
+                  <div class="client_block">
+                    <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image"></a>
+                  </div>
+                </div>
+              </div> -->
+              <!-- End of Clients block -->
+
+              <!-- Fun facts block -->
+              <div class="block-title">
+                <h3>Some Facts</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg">
+                    <i class="pe-7s-icon pe-7s-smile"></i>
+                    <h4>Scientific contributions</h4>
+                    <span class="fun-value">22</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block">
+                    <i class="pe-7s-icon pe-7s-alarm"></i>
+                    <h4>Working Hours</h4>
+                    <span class="fun-value">2,256</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block gray-bg">
+                    <i class="pe-7s-icon pe-7s-medal"></i>
+                    <h4>Awards Won</h4>
+                    <span class="fun-value">0</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="fun-fact-block">
+                    <i class="pe-7s-icon pe-7s-coffee"></i>
+                    <h4>Coffee Consumed</h4>
+                    <span class="fun-value">23</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun fucts block -->
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Resume</h2>
+                <h5 class="section-description">1 Years of Experience</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2008 - 2010</h5>
+                      <h4 class="event-name">Master Degree in Automatics and Robotics</h4>
+                      <span class="event-description">University of Catalonia UPC, Spain</span>
+                      <p>Advanced control techniques. Mobile robotics. Computer vision.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2004 - 2008</h5>
+                      <h4 class="event-name">Industrial Engineer in Industrial Electronics</h4>
+                      <span class="event-description">University of the Balearic Islands, Spain</span>
+                      <p>Computer vision. Robotics. Electronics. Control theory.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2002 - 2004</h5>
+                      <h4 class="event-name">Bachelor Degree Scientific-technological</h4>
+                      <span class="event-description">IES Guillem Colom Casasnovas, Spain</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Experience</h3>
+                  </div>
+                  <div class="timeline">
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2017 - Current</h5>
+                      <h4 class="event-name">Senior Computer Vision Engineer</h4>
+                      <span class="event-description">ROVCO Subsea, United Kingdom</span>
+                      <p>Designing online 3D underwater mapping algorithms, based on an accurate Visual-SLAM positioning system and semi-dense 3D reconstructions. I am developing cutting-edge solutions for reliable and impressive 3D underwater reconstructions to be executed online during the robot mission. The objective is to provide both ROVs pilots and technicians or inspectors with instant visualizations of marine structures.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2012 - 2017</h5>
+                      <h4 class="event-name">Postgraduate Researcher</h4>
+                      <span class="event-description">Systems, Robotics and Vision Group, University of the Balearic Islands, Spain</span>
+                      <p>Co-responsible for the entire platform (software and hardware) of the autonomous underwater robot "Turbot". In charge of the whole localization pipeline based on various sensors: IMU, DVL, USBL, GPS and 2 stereo pairs. Specialized in stereo localization, loop closing detection and 3D reconstruction of the environment and the tools to visualize it. Responsible for the design and development of the operating interface of the vehicle based on HTML5, Google maps API and Rosbridge.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2012 - 2015</h5>
+                      <h4 class="event-name">CEO at Binibook.com</h4>
+                      <p>Lead of the platform to write and distribute books online. In charge of the website and apps developed for iOS and Android. Create value, manage the group and keep developing code in HTML5, Javascript, CSS, PHP, NodeJS, Xcode and Java.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2011 - 2012</h5>
+                      <h4 class="event-name">Software Developer</h4>
+                      <span class="event-description">Sampol Comunications S.L.</span>
+                      <p>Developing drivers for IAS/Wonderware, cameras, relies and many other sensors for factories and intelligent houses. Implementing power monitoring systems to improve the building efficiency with powerful web front-ends and databases. Responsible for the project of automatic reading of meters of water and electricity for the Palma de Mallorca Harbour's.</p>
+                    </div>
+                    <!-- Single event -->
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2009 - 2011</h5>
+                      <h4 class="event-name">Control Engineer</h4>
+                      <span class="event-description">Alstom Power S.L.U.</span>
+                      <p>Responsible for the control design and tuning of the wind turbines ECO74 and ECO80. Specialized in system identification and fault-tolerant control in adverse weather conditions.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Robotics software tools</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>ROS</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-9"></div>
+                    </div>
+
+                    <h4>Linux + command line + ssh</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+
+                    <h4>OpenCV + PCL</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+
+                    <h4>G2O + Ceres-Solver</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+                  </div>
+
+                  <div class="block-title">
+                    <h3>Coding Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>C++</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-9"></div>
+                    </div>
+
+                    <h4>Python</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>Matlab</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+
+                    <h4>HTML + JS + CSS + PHP</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>C# + Java</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="plnegre_resume.pdf">Download CV</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Resume Subpage -->
 
 
-    <font color="#000033" size="-3" face="Arial, Helvetica, sans-serif">
-          MSc  <br>
-          National Taipei University of Technologhy <br>
-          
-    </font>
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">My Best Works</h5>
+              </div>
 
+              <!-- Portfolio Content -->
+              <div class="portfolio-content">
 
-    <br>
+                <!-- Portfolio filter -->
+                <ul id="portfolio_filters" class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                  </li>
+                </ul>
+                <!-- End of Portfolio filter -->
 
-  <font size="-3" face="Arial, Helvetica, sans-serif">
-          <a href="mailto:fetulahatas1@gmail.com"><strong> fetulahatas1@gmail.com </strong></a>
+                <!-- Portfolio Grid -->
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
-    </font>
-  
+                  <!-- Portfolio Item 1 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/1.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 1 -->
 
-</p>
-</center>
+                  <!-- Portfolio Item 2 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/2.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 2 -->
 
-<a href="https://clustrmaps.com/site/19mo9"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=l23ot-RfTYgVD_YxC65PW0heWC0fz5jnuG3XiKGtTDg&cl=ffffff" width="156" height="106" align="center" /></a>
+                  <!-- Portfolio Item 3 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                      <img src="images/portfolio/3.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 3 -->
+
+                  <!-- Portfolio Item 4 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/4.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 4 -->
+
+                  <!-- Portfolio Item 5 -->
+                  <figure class="item" data-groups='["all", "illustration"]'>
+                    <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                      <img src="images/portfolio/5.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 5 -->
+
+                  <!-- Portfolio Item 6 -->
+                  <figure class="item" data-groups='["all", "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/6.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 6 -->
+
+                  <!-- Portfolio Item 7 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/7.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 7 -->
+
+                  <!-- Portfolio Item 8 -->
+                  <figure class="item" data-groups='["all",  "media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/8.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 8 -->
+
+                  <!-- Portfolio Item 9 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                      <img src="images/portfolio/9.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 9 -->
+
+                  <!-- Portfolio Item 10 -->
+                  <figure class="item" data-groups='["all", "video"]'>
+                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                      <img src="images/portfolio/10.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Video</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 10 -->
+
+                  <!-- Portfolio Item 11 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                      <img src="images/portfolio/11.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Illustration</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 11 -->
+
+                  <!-- Portfolio Item 12 -->
+                  <figure class="item" data-groups='["all","media"]'>
+                    <a class="ajax-page-load" href="portfolio-1.html">
+                      <img src="images/portfolio/12.jpg" alt="">
+                      <div>
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 12 -->
+                </div>
+                <!-- /Portfolio Grid -->
+
+              </div>
+              <!-- /Portfolio Content -->
+
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page pt-page-5" data-id="blog">
+              <div class="section-title-block">
+                <h2 class="section-title">Blog</h2>
+                <h5 class="section-description">My Diary</h5>
+              </div>
+              <div class="blog-masonry">
+                <!-- Blog Post 1 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Travel</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 1 -->
+
+                <!-- Blog Post 2 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">jQuery</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 2 -->
+
+                <!-- Blog Post 3 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Sport</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Designed for Everyone, Everywhere</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 3 -->
+
+                <!-- Blog Post 4 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 4 -->
+
+                <!-- Blog Post 5 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 5 -->
+
+                <!-- Blog Post 6 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">HTML5</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 6 -->
+
+                <!-- Blog Post 7 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Design</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Navigation for Mega-Sites</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 7 -->
+
+                <!-- Blog Post 8 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 8 -->
+              </div>
+            </section>
+            <!-- End Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-6" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Get in Touch</h3>
+                  </div>
+                  <p>If you would like to find out more about me, my research or my work, please drop me an email. We welcome your comments and suggestions about this website and/or any other issues that you wish to raise. </p>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-map-marker"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Bunyola, Mallorca, SPAIN</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5><img src="images/eailm.png" alt=""></h5>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Contact Form</h3>
+                  </div>
+                  <form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                      <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-user"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-envelope"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-comment"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+
+                      <input type="submit" class="button btn-send" value="Send message">
+                    </div>
+                  </form>
+                </div> -->
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
