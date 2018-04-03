@@ -540,11 +540,24 @@ workspace struct. The labels, first obtained as excel data table which includes 
 
                   <!-- Portfolio Item 3 -->
                   <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                      <img src="images/portfolio/3.jpg" alt="">
+                    <a href="https://github.com/jediofgever/jediofgever.github.io/blob/master/lawnmover.jpg?raw=true" class="lightbox" title="Duis Eu Eros Viverra">
+                      <img src="https://github.com/jediofgever/jediofgever.github.io/blob/master/lawnmover.jpg?raw=true" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
+                        <h5 class="name">Autonmous Lawn Mover</h5>
+                        <small>This robot is designed to mow grass autonmously. The robot has 2 cameras, GPS, Gyros, Acceleoreometrs, Raspberry Pİ 3, 12W solar panel 
+Arduino Mega 2560 , 3 Dc motors for locomotion and cutter blade. <br> <br>
+With the two frontal webcams, robot is able to detect grass area, and unmowed grasses. Also this two webcams used for an obstacle avoidance 
+algorithm. The upper camera detects area with the grass and obstacles that are needed to be avoid. <br><br>
+With GPS the robot avoids replication of same positions. Thus the operation of mowing grass, is done with optimal efficiency. <br><br>
+Computer vision algorithms are developed in Python and OpenCV and Embedded to Raspberry Pi.  Since the computation power of Raspberry Pi
+is relatively limited the algorithms were not performed optimally. <br><br>
+At bottom left picture, the computer vision algorithm has deteceted intersted area , also the obstactle front of robot. The red line is 
+meant to be optimal steering angle for the navigation. At bottom right picture GPS data is processed to an image, processed areas 
+are circled in red line this indicated that the robot shall not pass through this area. This is done by comparing the most recent 
+data from GPS with the scanned area.<br>
+Python code for computer vision is: <a href="https://github.com/jediofgever/jediofgever.github.io/blob/master/lawnMowerCV.py">lawnMowerCV.py</a> <br>  
+Arduino code for sensors, dc motors,PID is: <a href="https://github.com/jediofgever/jediofgever.github.io/blob/master/lawnMower.ino">lawnMower.ino</a> <br> 
+A short video showing robot first trials <a href="https://www.youtube.com/watch?v=2kVBbBF_16o">here</a></small>
                         <i class="fa fa-image"></i>
                       </div>
                     </a>
