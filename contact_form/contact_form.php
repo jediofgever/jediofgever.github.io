@@ -2,7 +2,7 @@
 
 // configure
 $from = 'Contact form plnegre.github.io';
-$sendTo = 'fetulahatas1@@gmail.com';
+$sendTo = 'fetulahatas1@gmail.com';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
